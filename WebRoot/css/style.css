@@ -1,0 +1,194 @@
+@charset "utf-8";
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font: "黑体", arial;
+	font-size: 16px;
+	overflow: hidden;
+}
+
+
+.bg {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-image: url("../img/5f49bf37fd1e4c8ff811d402015d10d0.jpg");
+}
+
+.login_html {
+	margin-top: 100px;
+}
+
+.forget_html {
+	margin-top: 40px;
+}
+
+.register_html {
+	margin-top: 70px;
+}
+
+.login_box ul li ul {
+	width: 70%;
+	margin: 25px auto;
+}
+
+.login_html ul li ul {
+	margin: 50px auto;
+}
+
+.login_box ul li ul:after {
+	display: block;
+	content: "";
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+
+.login_box ul li ul li:nth-of-type(odd) {
+	float: left;
+}
+
+.login_box ul li ul li:nth-of-type(even) {
+	float: right;
+}
+
+.login_box ul li label {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.login_box ul li input {
+	width: 160px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 32px;
+	outline: none;
+	font-size: 14px;
+	border: 1px solid #9aa8b7;
+	background-color: #ddd;
+}
+
+.login_box ul li input:focus {
+	border: 1px solid #d15359;
+}
+
+.btn_box li {
+	padding: 0 25px;
+}
+
+.login_box ul li .forget_secreate li {
+	width: 100%;
+	margin: -25px auto;
+}
+
+.login_box ul li .forget_secreate li a {
+	text-decoration: underline;
+	font-family: Tahoma, Helvetica, "Microsoft Yahei", 微软雅黑, Arial, STHeiti;
+}
+
+#login {
+	border-radius: 5px;
+	-ms-border-radius: 5px;
+	position: relative;
+	left: 50%;
+	width: 440px;
+	height: 380px;
+	margin-top: 200px;
+	margin-left: -200px;
+	text-align: center;
+	border: 1px solid black;
+	box-shadow: 0px 0px 5px 1px #666666;
+	background: url("../img/timg.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+#errorInfo,
+#errorInfo_second,
+#errorInfo_third {
+	display: none;
+	color: red;
+	font-size: 18px;
+	font-weight: 700;
+	position: absolute;
+	top: 5px;
+	left: 50%;
+	width: 100%;
+	margin-left: 25px;
+	transform: translateX(-50%);
+	height: 40px;
+	line-height: 40px
+}
+
+#login_btn,
+#register,
+#modify,
+#back {
+	cursor: pointer;
+	box-sizing: border-box;
+	width: 80px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #33c9cf;
+	outline: 0;
+	border: 0;
+	color: white;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.user_bg {
+	background: url("../img/user.png") left no-repeat;
+	background-size: 1.2rem;
+	background-position: 8px;
+}
+
+.secreate_bg {
+	background: url("../img/secreate.png") left no-repeat;
+	background-size: 1.4rem;
+	background-position: 5px;
+}
+
+.telphone_bg {
+	background: url("../img/telphone.png") left no-repeat;
+	background-size: 1.4rem;
+	background-position: 5px;
+}
+
+.yzm_bg {
+	background: url("../img/yzm.png") left no-repeat;
+	background-size: 1.4rem;
+	background-position: 5px;
+}
+
+.login_box .telephone {
+	width: 80px;
+}
+
+.btn_yzm {
+	width: 80px;
+	height: 32px;
+	color: #fff;
+	line-height: 32px;
+	border: none;
+	cursor: pointer;
+	background: rgb(66, 133, 244);
+}
+
+a:visited,
+a:link {
+	color: black
+}
+
+.toggle_yzm {
+	display: none;
+	margin-top: -10px;
+	margin-bottom: -20px;
+}

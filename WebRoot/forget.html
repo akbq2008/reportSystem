@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta http-equiv="expires" content="Wed, 20 Jun 2097 22:33:00 GMT" />
+		<title>重置密码</title>
+		<link type="favicon" rel="shortcut icon" href="img/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+
+	<body>
+		<span class="bg"></span>
+		<div id="login">
+			<div id="errorInfo_second"></div>
+			<div class="login_box forget_html">
+				<ul>
+					<li>
+						<ul>
+							<li>
+								<label for="newUserName">用户名:</label>
+							</li>
+							<li>
+								<input type="text" name="newUserName" class="user_bg" id="newUserName" autofocus placeholder="请输入用户名" autocomplete="off" />
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<label for="newSecreate">新的密码:</label>
+							</li>
+							<li>
+								<input type="password" name="newSecreate" class="secreate_bg" id="newSecreate" placeholder="请输入新的密码 " autocomplete="new-password" />
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<label for="againSecreate">再次确认:</label>
+							</li>
+							<li>
+								<input type="password" class="secreate_bg" name="againSecreate" id="againSecreate" placeholder="请再次确认密码" autocomplete="new-password" />
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<label for="telephone">手机号码:</label>
+							</li>
+							<li>
+								<input type="text" name="telphone" class="telphone_bg" id="telephone" placeholder="请输入手机号码" />
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul>
+							<li>
+								<label for="tel_yzm" class="label_yzm">验证码:</label>
+							</li>
+							<li>
+								<input type="text" name="tel_yzm" class="yzm_bg telephone" id="tel_yzm" placeholder="输入验证码" /><button class="btn_yzm">获取验证码</button>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<ul class="btn_box">
+							<li>
+								<button id="modify">修改</button>
+							</li>
+							<li>
+								<button id="back">返回</button>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/Base.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/md5.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/drag.js" type="text/javascript" charset="utf-8"></script>-->
+	</body>
+
+</html>
